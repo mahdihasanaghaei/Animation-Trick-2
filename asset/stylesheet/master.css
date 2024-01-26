@@ -1,0 +1,219 @@
+.battery {
+  width: 300px;
+  height: 100px;
+  position: relative;
+  border-radius: 15px;
+  border: 10px solid rgb(65, 254, 254);
+  box-shadow: 0px 0px 10px 5px rgba(65, 254, 254, 0.589);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.battery > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 20%;
+  top: -100%;
+}
+.battery > span > h1 {
+  color: white;
+  font-size: 30px;
+  text-transform: capitalize;
+  font-family: monospace;
+}
+.battery > span > span {
+  color: white;
+  font-size: 50px;
+  margin-left: 10px;
+}
+.battery > span > span:nth-of-type(1) {
+  animation: dot1 1s linear infinite;
+}
+.battery > span > span:nth-of-type(2) {
+  animation: dot2 1s linear infinite;
+}
+.battery > span > span:nth-of-type(3) {
+  animation: dot3 1s linear infinite;
+}
+.battery > div {
+  width: 28px;
+  height: 90%;
+  background-color: rgb(65, 254, 254);
+  margin: 0px 4px;
+}
+.battery > div:nth-of-type(1) {
+  animation: block1 1s linear infinite;
+}
+.battery > div:nth-of-type(2) {
+  animation: block2 1s linear infinite;
+}
+.battery > div:nth-of-type(3) {
+  animation: block3 1s linear infinite;
+}
+.battery > div:nth-of-type(4) {
+  animation: block4 1s linear infinite;
+}
+.battery > div:nth-of-type(5) {
+  animation: block5 1s linear infinite;
+}
+.battery > div:nth-of-type(6) {
+  animation: block6 1s linear infinite;
+}
+.battery > div:nth-of-type(7) {
+  animation: block7 1s linear infinite;
+}
+.battery > div:nth-of-type(8) {
+  animation: block8 1s linear infinite;
+}
+.battery > div:nth-of-type(9) {
+  animation: block9 1s linear infinite;
+}
+.battery > div:nth-of-type(10) {
+  animation: block10 1s linear infinite;
+}
+
+@keyframes dot1 {
+  0% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 1;
+  }
+}
+@keyframes dot2 {
+  0% {
+    opacity: 1;
+  }
+  63% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 1;
+  }
+}
+@keyframes dot3 {
+  0% {
+    opacity: 1;
+  }
+  97% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 1;
+  }
+}
+@keyframes block1 {
+  0% {
+    opacity: 0;
+  }
+  7% {
+    opacity: 0;
+  }
+  13% {
+    opacity: 1;
+  }
+}
+@keyframes block2 {
+  0% {
+    opacity: 0;
+  }
+  17% {
+    opacity: 0;
+  }
+  23% {
+    opacity: 1;
+  }
+}
+@keyframes block3 {
+  0% {
+    opacity: 0;
+  }
+  27% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 1;
+  }
+}
+@keyframes block4 {
+  0% {
+    opacity: 0;
+  }
+  37% {
+    opacity: 0;
+  }
+  43% {
+    opacity: 1;
+  }
+}
+@keyframes block5 {
+  0% {
+    opacity: 0;
+  }
+  47% {
+    opacity: 0;
+  }
+  53% {
+    opacity: 1;
+  }
+}
+@keyframes block6 {
+  0% {
+    opacity: 0;
+  }
+  57% {
+    opacity: 0;
+  }
+  63% {
+    opacity: 1;
+  }
+}
+@keyframes block7 {
+  0% {
+    opacity: 0;
+  }
+  67% {
+    opacity: 0;
+  }
+  73% {
+    opacity: 1;
+  }
+}
+@keyframes block8 {
+  0% {
+    opacity: 0;
+  }
+  77% {
+    opacity: 0;
+  }
+  83% {
+    opacity: 1;
+  }
+}
+@keyframes block9 {
+  0% {
+    opacity: 0;
+  }
+  87% {
+    opacity: 0;
+  }
+  93% {
+    opacity: 1;
+  }
+}
+@keyframes block10 {
+  0% {
+    opacity: 0;
+  }
+  94% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=master.css.map */
